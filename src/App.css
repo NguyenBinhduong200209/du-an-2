@@ -24,6 +24,8 @@
   color: white;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +38,73 @@
     transform: rotate(360deg);
   }
 }
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+/* header  tu day                        ......................................*/
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  color: #957553  ;
+  background: #e58080;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  padding: 0,9rem 9%;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+.header .navbar a {
+  font-size: 1.4rem;
+  color: #3d3d3d;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+  color: #802c4e;
+}
+.headerIcon{
+
+  font-size: 2.0rem;
+}
+.webName{
+  
+   font-size: 1.8rem     ;
+    font-weight: bolder;
+   padding-right: 50px  ;
+   color: #874413;
+}
+.li{
+  list-style-type:none, !important; ;
+}
+.imgLogo{
+  
+    display: block;
+    max-width:300px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+  
+}
+
+
+/* Footer  tu day                        ......................................*/
+
