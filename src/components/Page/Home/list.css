@@ -1,0 +1,27 @@
+.card{
+    border-radius: 10px;
+   background-color: antiquewhite;
+    width: 18rem;
+    margin:1rem;
+    margin-left: 10%;
+    margin-top: 2rem;
+    
+}
+.imglist{
+    border-radius: 10px;
+    max-width:288px;
+    max-height:158px;}
+.btn{
+   
+    max-height: 30px;
+    
+    color: beige;
+    background-color: rgb(203, 130, 90);
+}
+.Dongia{
+    font-size: 15px;
+}
+.span{
+    margin: 0px !important;
+    padding: 0px !important;
+}
